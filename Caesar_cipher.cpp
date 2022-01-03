@@ -15,7 +15,7 @@ int main(){
 
 
     cout<<"----------------------------Caesar Cipher---------------------------"<<endl;
-    cout<<"Select Option Boiiiiii"<<endl;
+    cout<<"Select Option"<<endl;
     cout<<"1. Encryption"<<endl;
     cout<<"2. Decryption"<<endl;
     cout<<"______________________________________________________________________"<<endl;
@@ -33,7 +33,7 @@ int main(){
     // Decision making
     if (n==1) encrypt(k, txt);
     else if (n==2) decrypt(k, txt);
-    else cout<<endl<<"Andha hai kya LOVE day";
+    else cout<<endl<<"Enter valid input";
 
 } 
 
