@@ -1,4 +1,3 @@
-
 class vigenereCiphere {
 
    static String generateKey(String str, String key) {
@@ -18,7 +17,7 @@ class vigenereCiphere {
       String cipher_text = "";
 
       for (int i = 0; i < str.length(); i++) {
-         // converting in range 0-25
+     
          int x = (str.charAt(i) + key.charAt(i)) % 26;
 
          x += 'A';
@@ -33,7 +32,7 @@ class vigenereCiphere {
 
       for (int i = 0; i < cipher_text.length() &&
             i < key.length(); i++) {
-         // converting in range 0-25
+  
          int x = (cipher_text.charAt(i) -
                key.charAt(i) + 26) % 26;
 
